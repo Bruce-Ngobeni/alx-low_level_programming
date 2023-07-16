@@ -11,11 +11,11 @@ long int decimals;
 long long int decimal;
 float last;
 
-printf("Size of a char: %zu byte(s)",(unsigned long)sizeof(letter));
-printf("Size of a int: %zu byte(s)",(unsigned long)sizeof(num));
-printf("Size of a long int: %zu byte(s)",(unsigned long)sizeof(decimals));
-printf("Size of a long long int: %zu byte(s)",(unsigned long)sizeof(decimal));
-printf("Size of a float: %zu byte(s)",(unsigned long)sizeof(last));
+printf("Size of a char: %zu byte(s)\n",(unsigned long)sizeof(letter));
+printf("Size of a int: %zu byte(s)"\n,(unsigned long)sizeof(num));
+printf("Size of a long int: %zu byte(s)\n",(unsigned long)sizeof(decimals));
+printf("Size of a long long int: %zu byte(s)\n",(unsigned long)sizeof(decimal));
+printf("Size of a float: %zu byte(s)\n",(unsigned long)sizeof(last));
 
 return (0);
 }
