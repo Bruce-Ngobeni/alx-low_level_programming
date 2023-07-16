@@ -12,7 +12,7 @@ long long int decimal;
 float last;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(letter));
-printf("Size of a int: %lu byte(s)"\n, (unsigned long)sizeof(num));
+printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(num));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(decimals));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(decimal));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(last));
