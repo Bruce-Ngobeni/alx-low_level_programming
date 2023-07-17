@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ *main - A program that prints alphabets
+ *Return: 0 (Success)
+ */
+int main(void)
+{
+	char alphabet = 'a';
+	int start = 0;
+	char line = '\n';
+
+	while (start <= 24)
+	{
+		if (alphabet == 'e' || alphabet == 'q')
+		{
+			alphabet++;
+		}
+		putchar(alphabet++);
+		start++;
+	}
+
+	putchar(line);
+
+	return (0);
+}
