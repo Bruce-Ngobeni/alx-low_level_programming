@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - A program that prints alphabets
+ *main - A program that prints alphabets excluding e and q
  *Return: 0 (Success)
  */
 int main(void)
