@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+ *print_number - function that prints an integer.
+ *@c: input parameter, representing input from the user.
+ *Return: 0 success.
+ */
+
+void print_number(int n)
+{
+	unsigned int i = n;
+
+	if(n < 0)
+	{
+		_putchar(45);
+		i = -i;
+	}
+	if (i/10)
+	{
+		
+	}
+}
