@@ -8,9 +8,9 @@
 int _strlen(char *s)
 {
 	int i = 0;
-	int length;
+	int length = 0;
 
-	while (i < 100)
+	while (i < 1000)
 	{
 		if (s[i] == 0)
 		{
