@@ -8,7 +8,7 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int i = 1;
 	int length = 0;
 
 	while (i < 1000)
@@ -20,7 +20,7 @@ void print_rev(char *s)
 		i++;
 		length = i;
 	}
-	while (length > 0)
+	while (length >= 0)
 	{
 		_putchar(*(s + length));
 		length--;
