@@ -8,22 +8,18 @@
 
 void print_rev(char *s)
 {
-	int i = 1;
 	int length = 0;
 
-	while (i < 1000)
+	while (*s != 0)
 	{
-		if ((*(s + i)) == '\0')
-		{
-			break;
-		}
-		i++;
-		length = i;
+		length = length + 1;
+		s++;
 	}
-	while (length >= 0)
+	while (length >  0)
 	{
-		_putchar(*(s + length));
-		length--;
+		_putchar(*s);
+		s--;
+		length = length - 1;
 	}
 	_putchar('\n');
 }
