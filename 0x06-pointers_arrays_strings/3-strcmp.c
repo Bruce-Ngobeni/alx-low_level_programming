@@ -8,38 +8,22 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0, check1 = 0, check2 = 0, m = 0, n = 0;
+	int i = 0, m = 0;
 
-	while (s1[1] != '\0')
+	while (s1[i] != '\0')
 	{
-		check1 = check1 + s1[i];
 		i++;
 	}
-	while (s2[j] != '\0')
+	while (i > 0)
 	{
-		check2 = check2 + s2[j];
-		j++;
-	}
-	if (i == j)
-	{
-		while (n <= j)
+		if (s1[i] != s2[i])
 		{
-			if ((s1[n] != s2[n]) && (check1 > check2))
-			{
-				m = 15;
-				break;
-			}
-			m = 0;
-			n++;
+			m = s1[0] - s2[0];
+			break;
 		}
-	}
-	else if (i > j && check1 > check2)
-	{
-		m = 15;
-	}
-	else
-	{
-		m = -15;
+		m = 0;
+		i--;
 	}
 	return (m);
 }
+
