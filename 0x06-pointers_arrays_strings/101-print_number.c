@@ -24,6 +24,11 @@ void print_number(int n)
 		_putchar(45), _putchar((d * -1) + 48);
 		_putchar(48 + (c * -1)), _putchar(48 + (a * -1));
 	}
+	else if (n <= -1000)
+	{
+		_putchar(45), _putchar((f * -1) + 48), _putchar(48 + (e * -1));
+		_putchar(48 + (c * -1)), _putchar(48 + (a * -1));
+	}
 	else if (n < 10)
 	{
 		_putchar(48 + a);
