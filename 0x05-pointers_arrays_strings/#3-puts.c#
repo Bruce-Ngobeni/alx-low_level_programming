@@ -1,0 +1,12 @@
+/**
+ * _puts - function that prints a string.
+ * @str: a pointer argument than can hold an address of character type.
+ *
+ * Return: 0
+ */
+#include "main.h"
+
+);
+	}
+	_putchar('\n');
+}
