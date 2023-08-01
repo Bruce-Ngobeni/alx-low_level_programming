@@ -10,6 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, j = 0, check = 50;
+	char *p;
 
 	while (accept[i] != '\0')
 	{
@@ -27,5 +28,10 @@ char *_strpbrk(char *s, char *accept)
 		}
 		i++;
 	}
-	return (&s[check]);
+	if (check < 50)
+	{
+		p = &s[check];
+		return (p);
+	}
+	return (0);
 }
